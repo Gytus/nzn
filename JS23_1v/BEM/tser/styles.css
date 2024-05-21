@@ -1,0 +1,79 @@
+body {
+  background-color: grey;
+}
+
+.card {
+  height: 20vh;
+  width: 20vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  background-color: rgb(127, 152, 153);
+}
+.card__img {
+  width: 70%;
+  height: 40%;
+  background-color: lightgray;
+  border-radius: 10px;
+  margin-left: 2vh;
+  margin-bottom: 8px;
+}
+.card__name {
+  width: 40%;
+  height: 10%;
+  background-color: lightgray;
+  border-radius: 10px;
+  margin-left: 2vh;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.card__text {
+  width: 80%;
+  height: 30%;
+  background-color: lightgray;
+  border-radius: 10px;
+  margin-left: 2vh;
+  margin-bottom: 8px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.card__btn--primary {
+  background-color: green;
+  width: 30%;
+  height: 2vh;
+  border-radius: 1px;
+  bottom: 0%;
+  margin-left: 2vh;
+  margin-bottom: 5px;
+}
+.card__btn--primary:active,
+.card__btn--secondary:active {
+  background-color: blue;
+  animation-name: spin;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation: spin 1s infinite linear;
+}
+.card__btn--secondary {
+  background-color: green;
+  width: 30%;
+  height: 2vh;
+  border-radius: 1px;
+  margin-left: 2vh;
+  margin-bottom: 5px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+    background-color: blueviolet;
+    color: aliceblue;
+  }
+  to {
+    transform: rotate(360deg);
+    background-color: blueviolet;
+    color: aliceblue;
+  }
+}

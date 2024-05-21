@@ -1,0 +1,27 @@
+body {
+  background-image: url(https://th.bing.com/th/id/R.dd6f8c6c8782c99dfaa04c9f59753bb1?rik=AvmfSn4yR0fFwg&pid=ImgRaw&r=0);
+  background-repeat: no-repeat;
+}
+
+.boat {
+  width: 10vh;
+  height: 10vh;
+  margin-top: 50vh;
+  animation-name: boat;
+  animation: boat 2s infinite linear;
+  position: absolute;
+}
+@keyframes boat {
+  0% {
+    left: 0%;
+    top: 4%;
+  }
+  50% {
+    left: 25%;
+    top: 8%;
+  }
+  100% {
+    left: 50%;
+    top: 4%;
+  }
+}

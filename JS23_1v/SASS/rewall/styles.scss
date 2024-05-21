@@ -1,0 +1,46 @@
+$list__color: rgb(165, 0, 0);
+$text__color: rgb(90, 86, 86);
+$font: 10px;
+$padding: 20px;
+//body things....
+body {
+  background-color: grey;
+}
+//list thing.......
+@mixin basic-preset {
+  background-color: $list__color;
+  color: $text__color;
+  width: 10vh;
+  height: 10vh;
+}
+//centering things........
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+//function thing.......
+@function add-numbers($first-number, $second-number) {
+  @return $first-number + $second-number;
+}
+//stuff
+.container {
+  @include center;
+  padding: add-numbers(10px, 40px);
+
+  &__li {
+    color: $text__color;
+    font-size: 20px;
+  }
+}
+
+.center {
+  @include center;
+  font-size: large;
+}
+
+.btn {
+  margin-left: 46.5%;
+  background-color: chartreuse;
+  color: red;
+}

@@ -1,0 +1,75 @@
+* {
+  margin: 0px;
+  gap: 2px;
+}
+
+body {
+  background-color: grey;
+}
+
+header {
+  width: auto;
+  height: 20vh;
+  background-color: blue;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.down1 {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.down2 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.dn {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+main {
+  height: 40vh;
+  background-color: palevioletred;
+}
+
+aside {
+  height: 20vh;
+  background-color: pink;
+}
+
+.a {
+  height: 20vh;
+  background-color: teal;
+}
+
+.aa {
+  height: 40vh;
+  background-color: violet;
+}
+
+.aaa {
+  width: 40%;
+  height: 20vh;
+  background-color: red;
+}
+
+.aaaa {
+  width: 60%;
+  height: 20vh;
+  background-color: yellow;
+}
+
+footer {
+  width: auto;
+  height: 20vh;
+  background-color: lightgreen;
+}

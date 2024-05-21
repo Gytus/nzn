@@ -1,0 +1,45 @@
+body {
+  background-color: grey;
+}
+
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divas {
+  @include center();
+
+  background-color: aquamarine;
+  height: 50px;
+  width: 50px;
+}
+
+.circle {
+  @include center();
+  background-color: aquamarine;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+
+.nav {
+  background-color: lightgray;
+
+  &__list {
+    border: 1px solid black;
+
+    &--primary {
+      color: white;
+    }
+
+    &--secondary {
+      color: red;
+    }
+
+    &--thirdary {
+      color: blue;
+    }
+  }
+}

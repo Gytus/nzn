@@ -1,0 +1,41 @@
+body {
+  background-color: grey;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px;
+}
+
+.container__li {
+  color: #5a5656;
+  font-size: 20px;
+}
+
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: large;
+}
+
+.btn {
+  margin-left: 46.5%;
+  background-color: chartreuse;
+  color: red;
+}
+/*# sourceMappingURL=styles.css.map */

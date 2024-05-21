@@ -1,0 +1,167 @@
+body {
+  background-color: grey;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* p {
+  color: blue;
+  font-size: 16px;
+}
+
+h1,
+p,
+a {
+  color: green;
+  font-size: 18px;
+} */
+
+/* .big {
+  font-size: 60px;
+  color: blueviolet;
+}
+
+#l {
+  background-color: rgb(255, 0, 0);
+  font-size: 29px;
+  color: darkgoldenrod;
+}
+
+.big:active {
+  background-color: black;
+  color: aliceblue;
+  font-size: 200px;
+}
+.big:hover {
+  color: crimson;
+  text-decoration: underline;
+}
+
+input[type="text"] {
+  border: 2px solid green;
+}
+input[type="text"] {
+  border: 1px solid yellow;
+}
+img[alt$="1"] {
+  border: 4px dotted goldenrod;
+}
+img[alt$="2"] {
+  border: 10px double magenta;
+} */
+
+/* #lol{
+    color: yellow;
+} */
+
+/* button {
+  color: brown;
+}
+
+/* .lol {
+  color: blue;
+  font-size: 60px;
+} */
+
+/* .link:link {
+  color: rgb(51, 32, 226);
+}
+.link:visited {
+  color: rgb(71, 231, 71);
+}
+
+.m:hover {
+  color: rgb(196, 230, 77);
+}
+
+.but:active {
+  background-color: chartreuse;
+  width: 500px;
+  height: 500px;
+}
+
+.hm p:first-child {
+  color: rgb(186, 186, 221);
+}
+
+.hm p:nth-child(3) {
+  color: rgb(26, 26, 223);
+}
+.hm p:last-child {
+  color: rgb(175, 8, 36);
+}
+
+.asd {
+  color: #ff0000;
+}
+.as {
+  color: hsl(263, 43%, 25%);
+}
+.a {
+  color: rgb(58, 95, 45);
+}
+
+.qwe {
+  background-color: antiquewhite;
+  font-size: 2em;
+}
+
+.qw {
+  font-size: 1.5em;
+}
+.q {
+  font-size: 1.5em;
+}
+
+.zxc {
+  background-color: #ff0000;
+  width: 100vw;
+}
+
+.mam {
+  color: rgb(196, 230, 77);
+  font-family: "Rubik Burned", system-ui;
+}
+.mom {
+  color: blue;
+  font-family: "Mynerve", cursive;
+}
+.mem {
+  color: blueviolet;
+  font-family: "Mynerve", cursive;
+}
+
+.dfg {
+  width: 150px;
+  padding: 3px;
+  border: 2px solid yellow;
+  background-color: blueviolet;
+} */
+
+.ewq {
+  border-radius: 5px;
+  background-color: aqua;
+  width: 50px;
+  height: 50px;
+  outline: 5px solid red;
+  margin-bottom: 30px;
+}
+
+.dsa {
+  border-radius: 5px 10px;
+  background-color: aqua;
+  width: 50px;
+  height: 50px;
+  outline: 5px solid red;
+  margin-bottom: 30px;
+}
+
+.cxz {
+  border-radius: 0px 0px 0px 10px;
+  background-color: aquamarine;
+  width: 50px;
+  height: 50px;
+  outline: 5px solid red;
+  border: 3px solid green;
+}

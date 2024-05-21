@@ -1,0 +1,52 @@
+body {
+  background-color: grey;
+}
+
+.wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 80px);
+  height: 100%;
+  gap: 10px 15px;
+  /* grid-template-areas:
+    ". one one one"
+    "two tow . the"
+    "fow fow fow fow"; */
+}
+
+.one {
+  grid-area: 1 / 1 / 2 / 4;
+  /* grid-area: one; */
+  background-color: blueviolet;
+}
+.two {
+  grid-area: 2 / 1 / 4 / 2;
+  /* grid-area: two; */
+  background-color: aquamarine;
+}
+.the {
+  grid-area: 2 / 2 / 3 / 3;
+  /* grid-area: the; */
+  background-color: greenyellow;
+}
+.fow {
+  grid-area: 2 / 3 / 3 / 4;
+  /* grid-area: fow; */
+  background-color: burlywood;
+}
+.fi {
+  grid-area: 3 / 2 / 4 / 4;
+  background-color: aquamarine;
+}
+.six {
+  grid-area: 4 / 1 / 5 / 3;
+  background-color: brown;
+}
+.seven {
+  grid-area: 4 / 3 / 5 / 4;
+  background-color: chartreuse;
+}
+.eight {
+  grid-area: 5 / 1 / 6 / 4;
+  background-color: darkslateblue;
+}
